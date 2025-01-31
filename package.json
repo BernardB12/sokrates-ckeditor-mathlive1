@@ -1,8 +1,11 @@
 {
   "name": "@sokrates/ckeditor-mathlive",
   "version": "0.0.1",
+  "main": "src/app/app.component.ts",
+  "types": "src/types/ckeditor-mathlive.d.ts",
   "scripts": {
-    "start": "ng serve"
+    "start": "ng serve",
+    "build": "tsc --project tsconfig.json --declaration --emitDeclarationOnly"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^18.0.0",
